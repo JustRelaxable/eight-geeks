@@ -1,0 +1,14 @@
+.itemContainer {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 0.25rem;
+  overflow-x: scroll;
+  list-style: none;
+  list-style-type: none;
+}
+
+.itemContainer::-webkit-scrollbar {
+  display: none;
+}
