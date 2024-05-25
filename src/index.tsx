@@ -16,7 +16,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
-    children: [{ path: "/", element: <Home />, loader: homeLoader }],
+    children: [
+      { path: "/", element: <Home />, loader: homeLoader },
+      { path: "games/", element: <p>Hello from games page!</p> },
+      { path: "games/:gameIdentifier", element: <p>Hello from games page!</p> },
+    ],
   },
 ]);
 root.render(
