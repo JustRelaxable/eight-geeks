@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import ErrorPage from "./error-page";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -12,6 +13,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <div>Hello world!</div>,
+    errorElement: <ErrorPage />,
   },
 ]);
 root.render(
