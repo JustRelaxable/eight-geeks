@@ -2,3 +2,7 @@
   display: flex;
   justify-content: space-between;
 }
+
+.headerText {
+  font-size: var(--header-font-size);
+}

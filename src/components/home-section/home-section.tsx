@@ -5,7 +5,7 @@ export default function HomeSection() {
     <section>
       <header className={styles.headerContainer}>
         <div>
-          <p>Games</p>
+          <p className={styles.headerText}>Games</p>
         </div>
         <div>
           <p>View all games</p>
