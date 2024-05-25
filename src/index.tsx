@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./error-page";
 import Root from "./routes/root/root";
+import Home from "./routes/home/home";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Root />,
     errorElement: <ErrorPage />,
+    children: [{ path: "/", element: <Home /> }],
   },
 ]);
 root.render(

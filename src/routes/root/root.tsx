@@ -1,9 +1,9 @@
 import styles from "./root.module.css";
-
+import { Outlet } from "react-router-dom";
 export default function Root() {
   return (
     <div className={styles.container}>
-      <p>Test</p>
+      <Outlet />
     </div>
   );
 }
