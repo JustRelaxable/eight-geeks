@@ -34,6 +34,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: var(--primary-text-color);
   font-family: "Itim", cursive;
+  background-color: var(--primary-bg-color);
 }
 
 html,

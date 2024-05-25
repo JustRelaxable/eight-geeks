@@ -1,19 +1,25 @@
+import { ItemData } from "../../types/ItemData";
 import HomeSectionHeader from "./header/home-section-header";
 import styles from "./home-section.module.css";
 import HomeSectionItem from "./item/home-section-item";
-import placeholderThumbnail from "./item/placeholder-home-section-item-thumbnail.avif";
 
-export default function HomeSection() {
+export default function HomeSection({
+  sectionName,
+  items,
+}: {
+  sectionName: string;
+  items: ItemData[];
+}) {
   return (
     <section>
-      <HomeSectionHeader sectionName="Games" />
+      <HomeSectionHeader sectionName={sectionName} />
       <ul className={styles.itemContainer}>
-        {Array.from(Array(10)).map((x) => (
+        {items.map((item) => (
           <li>
             <HomeSectionItem
-              thumbnailSource={placeholderThumbnail}
-              itemName="The Emily's Adventures"
-              itemAuthor="Taha Sökmen"
+              thumbnailSource={item.thumbnailSource}
+              itemName={item.itemName}
+              itemAuthor={item.itemAuthor}
             />
           </li>
         ))}
