@@ -12,12 +12,14 @@ export function loader() {
 export default function Home() {
   const sections = useLoaderData() as SectionData[];
   return (
-    <main>
+    <main className={styles.container}>
       {sections.map((section) => {
         return (
           <HomeSection
             sectionName={section.sectionName}
+            SectionLogo={section.sectionLogo}
             items={section.items}
+            key={section.sectionName}
           />
         );
       })}

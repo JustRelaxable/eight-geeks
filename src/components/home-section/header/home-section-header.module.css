@@ -7,3 +7,17 @@
 .headerText {
   font-size: var(--header-font-size);
 }
+
+.viewAllContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 1px;
+}
+
+.sectionNameLogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+}
