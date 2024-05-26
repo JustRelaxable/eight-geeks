@@ -3,40 +3,52 @@ import { SVGProps } from "react";
 const VideoSectionLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2em"
-    height="2em"
-    fill="none"
+    data-name="Layer 1"
+    viewBox="0 0 30.5 21"
+    width="2rem"
+    height="2rem"
     {...props}
   >
-    <path
-      fill="url(#videoLogoGradient1)"
-      d="M26.23 5.506H4.77a4.528 4.528 0 0 0-4.53 4.53V21.96a4.528 4.528 0 0 0 4.53 4.53h21.46a4.528 4.528 0 0 0 4.53-4.53V10.04a4.528 4.528 0 0 0-4.53-4.53v-.003ZM12.16 20.77v-9.54L20.266 16l-8.106 4.77Z"
-    />
-    <path fill="url(#videoLogoGradient2)" d="M12.16 20.77v-9.54L20.27 16" />
     <defs>
       <linearGradient
-        id="videoLogoGradient1"
-        x1={15.5}
-        x2={15.5}
-        y1={5.506}
-        y2={26.49}
+        id="VideoSectionLogo1"
+        x1={15.3}
+        x2={15.3}
+        y1={23}
+        y2={2}
+        gradientTransform="matrix(1 0 0 -1 0 23)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#F70606" />
+        <stop offset={0} stopColor="#f70606" />
         <stop offset={1} stopColor="#780505" />
       </linearGradient>
       <linearGradient
-        id="videoLogoGradient2"
-        x1={16.215}
-        x2={16.215}
-        y1={11.23}
-        y2={20.77}
+        id="VideoSectionLogo2"
+        x1={16}
+        x2={16}
+        y1={17.3}
+        y2={7.7}
+        gradientTransform="matrix(1 0 0 -1 0 23)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#EFF0F7" />
-        <stop offset={1} stopColor="#F1F1F1" />
+        <stop offset={0} stopColor="#eff0f7" />
+        <stop offset={1} stopColor="#f1f1f1" />
       </linearGradient>
     </defs>
+    <path
+      d="M26 0H4.5C2 0 0 2 0 4.5v11.9c0 2.5 2 4.5 4.5 4.5H26c2.5 0 4.5-2 4.5-4.5V4.5C30.5 2 28.5 0 26 0ZM11.9 15.3V5.7l8.1 4.8-8.1 4.8Z"
+      style={{
+        strokeWidth: 0,
+        fill: "url(#VideoSectionLogo1)",
+      }}
+    />
+    <path
+      d="M11.9 15.3V5.7l8.1 4.8"
+      style={{
+        fill: "url(#VideoSectionLogo2)",
+        strokeWidth: 0,
+      }}
+    />
   </svg>
 );
 export default VideoSectionLogo;

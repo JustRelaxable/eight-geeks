@@ -3,140 +3,191 @@ import { SVGProps } from "react";
 const ArtworkSectionLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="1.875em"
-    height="1.875em"
-    fill="none"
+    data-name="Layer 1"
+    viewBox="0 0 29.8 30"
+    width="1.875rem"
+    height="1.875rem"
     {...props}
   >
-    <g clipPath="url(#artworkSectionLogo1)">
-      <path
-        fill="url(#artworkSectionLogo2)"
-        d="M23.608 11.912c5.62-.496 6.774-3.14 5.12-5.616C25.758 1.843 19.194.092 12.57 2.104 4.237 4.634-1.276 12.335.257 19.304c1.534 6.97 9.533 10.564 17.867 8.033 3.62-1.1 6.705-3.174 8.912-5.737.89-1.034 1.199-4.237-2.932-4.072-4.406.177-5.016-5.218-.496-5.62v.005Zm-1.43-6.042c.404-.405.966-.64 1.54-.64A2.183 2.183 0 0 1 25.9 7.41a2.183 2.183 0 0 1-2.18 2.182 2.183 2.183 0 0 1-2.182-2.181c0-.574.232-1.137.64-1.541ZM3.75 13.03a1.882 1.882 0 0 1 2.38-1.195 1.882 1.882 0 0 1 1.195 2.38 1.885 1.885 0 0 1-2.38 1.195 1.887 1.887 0 0 1-1.195-2.383v.004Zm3.6 8.658a1.784 1.784 0 1 1-2.592-2.452 1.784 1.784 0 0 1 2.593 2.452ZM10.95 9.831c-.89.64-2.13.438-2.766-.453-.64-.89-.438-2.129.453-2.765.89-.64 2.129-.438 2.765.452.64.89.438 2.13-.452 2.766Zm3.442-3.763a2.081 2.081 0 0 1 1.828-2.31 2.081 2.081 0 0 1 2.31 1.829 2.081 2.081 0 0 1-1.828 2.31 2.081 2.081 0 0 1-2.31-1.829ZM20.74 21.67a2.66 2.66 0 0 1-.776 1.868 2.66 2.66 0 0 1-1.868.776 2.66 2.66 0 0 1-1.868-.776 2.66 2.66 0 0 1-.777-1.868c0-.695.284-1.38.777-1.869a2.657 2.657 0 0 1 1.868-.772c.695 0 1.375.283 1.868.772a2.66 2.66 0 0 1 .776 1.869Z"
-      />
-      <path
-        fill="url(#artworkSectionLogo3)"
-        d="M22.177 5.87c.405-.405.967-.64 1.541-.64A2.183 2.183 0 0 1 25.9 7.41a2.183 2.183 0 0 1-2.18 2.182 2.183 2.183 0 0 1-2.182-2.181c0-.574.232-1.137.64-1.541Z"
-      />
-      <path
-        fill="url(#artworkSectionLogo4)"
-        d="M14.391 6.068a2.081 2.081 0 0 1 1.828-2.31 2.081 2.081 0 0 1 2.31 1.829 2.081 2.081 0 0 1-1.828 2.31 2.081 2.081 0 0 1-2.31-1.829Z"
-      />
-      <path
-        fill="url(#artworkSectionLogo5)"
-        d="M8.635 6.609c.89-.64 2.13-.438 2.766.452.64.89.438 2.13-.452 2.766-.89.64-2.13.438-2.766-.452-.64-.89-.438-2.13.452-2.766Z"
-      />
-      <path
-        fill="url(#artworkSectionLogo6)"
-        d="M3.751 13.03a1.882 1.882 0 0 1 2.38-1.195 1.882 1.882 0 0 1 1.195 2.38 1.885 1.885 0 0 1-2.38 1.195 1.887 1.887 0 0 1-1.195-2.383v.004Z"
-      />
-      <path
-        fill="url(#artworkSectionLogo7)"
-        d="M7.352 21.688a1.784 1.784 0 1 1-2.593-2.452 1.784 1.784 0 0 1 2.593 2.452Z"
-      />
-      <g fillRule="evenodd" clipRule="evenodd">
-        <path
-          fill="url(#artworkSectionLogo8)"
-          d="M23.803 23.09 29.22 3.235c.144-.647.306-1.287.493-1.923.213-.728.114-.842-1.015-1.159-.99-.279-1.158-.19-1.306.357a28.175 28.175 0 0 1-.845 2.6l-6.268 19.055"
-        />
-        <path
-          fill="url(#artworkSectionLogo9)"
-          d="M20.28 22.166c-1.273.666-2.969 2.144-2.362 5.017.144 1.618-1.4 2.383-1.4 2.383 5.056 1.747 7.66-2.265 8.031-3.586.328-1.162-.26-2.2-.746-2.89l-3.524-.924Z"
-        />
-      </g>
-    </g>
     <defs>
       <linearGradient
-        id="artworkSectionLogo2"
-        x1={14.711}
-        x2={14.711}
-        y1={1.275}
-        y2={28.148}
+        id="ArtworkSectionLogo2"
+        x1={14.7}
+        x2={14.7}
+        y1={30.7}
+        y2={3.9}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#F89609" />
-        <stop offset={1} stopColor="#4A2C01" />
+        <stop offset={0} stopColor="#f89609" />
+        <stop offset={1} stopColor="#4a2c01" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo3"
-        x1={23.718}
-        x2={23.718}
-        y1={5.23}
-        y2={9.592}
+        id="ArtworkSectionLogo3"
+        x1={23.7}
+        x2={23.7}
+        y1={26.8}
+        y2={22.4}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#8E05F9" />
-        <stop offset={1} stopColor="#3A055A" />
+        <stop offset={0} stopColor="#8e05f9" />
+        <stop offset={1} stopColor="#3a055a" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo4"
-        x1={16.46}
-        x2={16.46}
-        y1={3.745}
-        y2={7.91}
+        id="ArtworkSectionLogo4"
+        x1={16.5}
+        x2={16.5}
+        y1={28.3}
+        y2={24.1}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#07D0DD" />
-        <stop offset={1} stopColor="#056A8A" />
+        <stop offset={0} stopColor="#07d0dd" />
+        <stop offset={1} stopColor="#056a8a" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo5"
-        x1={9.792}
-        x2={9.792}
-        y1={6.235}
-        y2={10.201}
+        id="ArtworkSectionLogo5"
+        x1={9.8}
+        x2={9.8}
+        y1={25.8}
+        y2={21.8}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#23FC00" />
-        <stop offset={1} stopColor="#0F6C00" />
+        <stop offset={0} stopColor="#23fc00" />
+        <stop offset={1} stopColor="#0f6c00" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo6"
-        x1={5.539}
-        x2={5.539}
-        y1={11.739}
-        y2={15.506}
+        id="ArtworkSectionLogo6"
+        x1={5.5}
+        x2={5.5}
+        y1={20.3}
+        y2={16.5}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#FF5C00" />
+        <stop offset={0} stopColor="#ff5c00" />
         <stop offset={1} stopColor="#773200" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo7"
-        x1={6.056}
-        x2={6.056}
-        y1={18.677}
-        y2={22.246}
+        id="ArtworkSectionLogo7"
+        x1={6.1}
+        x2={6.1}
+        y1={13.3}
+        y2={9.8}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#E62213" />
-        <stop offset={1} stopColor="#851C14" />
+        <stop offset={0} stopColor="#e62213" />
+        <stop offset={1} stopColor="#851c14" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo8"
-        x1={25.041}
-        x2={25.041}
-        y1={0}
-        y2={23.089}
+        id="ArtworkSectionLogo8"
+        x1={25}
+        x2={25}
+        y1={32}
+        y2={8.9}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#A08413" />
-        <stop offset={1} stopColor="#3A3007" />
+        <stop offset={0} stopColor="#a08413" />
+        <stop offset={1} stopColor="#3a3007" />
       </linearGradient>
       <linearGradient
-        id="artworkSectionLogo9"
-        x1={20.581}
-        x2={20.581}
-        y1={22.166}
-        y2={29.999}
+        id="ArtworkSectionLogo9"
+        x1={20.6}
+        x2={20.6}
+        y1={9.8}
+        y2={2}
+        gradientTransform="matrix(1 0 0 -1 0 32)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#D3A73A" />
-        <stop offset={1} stopColor="#7D5E11" />
+        <stop offset={0} stopColor="#d3a73a" />
+        <stop offset={1} stopColor="#7d5e11" />
       </linearGradient>
-      <clipPath id="artworkSectionLogo1">
-        <path fill="#fff" d="M0 0h29.801v30H0z" />
+      <clipPath id="ArtworkSectionLogo1">
+        <path
+          d="M0 0h29.8v30H0z"
+          style={{
+            strokeWidth: 0,
+            fill: "none",
+          }}
+        />
       </clipPath>
     </defs>
+    <g
+      style={{
+        clipPath: "url(#ArtworkSectionLogo1)",
+      }}
+    >
+      <path
+        d="M23.6 11.9c5.6-.5 6.8-3.1 5.1-5.6-2.9-4.5-9.5-6.3-16.1-4.2C4.2 4.6-1.3 12.3.3 19.3c1.5 7 9.5 10.6 17.9 8 3.6-1.1 6.7-3.2 8.9-5.7.9-1 1.2-4.2-2.9-4.1-4.4.2-5-5.2-.5-5.6Zm-1.4-6c.4-.4 1-.6 1.5-.6s1.1.2 1.5.6c.4.4.6 1 .6 1.5s-.2 1.1-.6 1.5c-.4.4-1 .6-1.5.6s-1.1-.2-1.5-.6c-.4-.4-.6-1-.6-1.5s.2-1.1.6-1.5ZM3.8 13c.3-1 1.4-1.5 2.4-1.2 1 .3 1.5 1.4 1.2 2.4-.3 1-1.4 1.5-2.4 1.2-1-.3-1.5-1.4-1.2-2.4Zm3.6 8.7c-.7.7-1.8.7-2.5 0s-.7-1.8 0-2.5 1.8-.7 2.5 0 .7 1.8 0 2.5Zm3.5-11.9c-.9.6-2.1.4-2.8-.5-.6-.9-.4-2.1.5-2.8.9-.6 2.1-.4 2.8.5.6.9.4 2.1-.5 2.8Zm3.5-3.7c-.1-1.1.7-2.2 1.8-2.3 1.1-.1 2.2.7 2.3 1.8.1 1.1-.7 2.2-1.8 2.3-1.1.1-2.2-.7-2.3-1.8Zm6.3 15.6a2.732 2.732 0 0 1-2.7 2.7 2.732 2.732 0 0 1-2.7-2.7A2.732 2.732 0 0 1 18 19a2.732 2.732 0 0 1 2.7 2.7Z"
+        style={{
+          fill: "url(#ArtworkSectionLogo2)",
+          strokeWidth: 0,
+        }}
+      />
+      <path
+        d="M22.2 5.9c.4-.4 1-.6 1.5-.6s1.1.2 1.5.6c.4.4.6 1 .6 1.5s-.2 1.1-.6 1.5c-.4.4-1 .6-1.5.6s-1.1-.2-1.5-.6c-.4-.4-.6-1-.6-1.5s.2-1.1.6-1.5Z"
+        data-name="Vector 2"
+        style={{
+          fill: "url(#ArtworkSectionLogo3)",
+          strokeWidth: 0,
+        }}
+      />
+      <path
+        d="M14.4 6.1c-.1-1.1.7-2.2 1.8-2.3 1.1-.1 2.2.7 2.3 1.8.1 1.1-.7 2.2-1.8 2.3-1.1.1-2.2-.7-2.3-1.8Z"
+        data-name="Vector 3"
+        style={{
+          fill: "url(#ArtworkSectionLogo4)",
+          strokeWidth: 0,
+        }}
+      />
+      <path
+        d="M8.6 6.6c.9-.6 2.1-.4 2.8.5.6.9.4 2.1-.5 2.8-.9.6-2.1.4-2.8-.5-.6-.9-.4-2.1.5-2.8Z"
+        data-name="Vector 4"
+        style={{
+          fill: "url(#ArtworkSectionLogo5)",
+          strokeWidth: 0,
+        }}
+      />
+      <path
+        d="M3.8 13c.3-1 1.4-1.5 2.4-1.2 1 .3 1.5 1.4 1.2 2.4-.3 1-1.4 1.5-2.4 1.2-1-.3-1.5-1.4-1.2-2.4Z"
+        data-name="Vector 5"
+        style={{
+          fill: "url(#ArtworkSectionLogo6)",
+          strokeWidth: 0,
+        }}
+      />
+      <path
+        d="M7.4 21.7c-.7.7-1.8.7-2.5 0s-.7-1.8 0-2.5 1.8-.7 2.5 0 .7 1.8 0 2.5Z"
+        data-name="Vector 6"
+        style={{
+          fill: "url(#ArtworkSectionLogo7)",
+          strokeWidth: 0,
+        }}
+      />
+      <g data-name="Group 2">
+        <path
+          d="m23.8 23.1 5.4-19.9c.1-.6.3-1.3.5-1.9.2-.7.1-.8-1-1.2-1-.3-1.2-.2-1.3.4-.2.9-.5 1.7-.8 2.6l-6.3 19.1"
+          style={{
+            fill: "url(#ArtworkSectionLogo8)",
+            fillRule: "evenodd",
+            strokeWidth: 0,
+          }}
+        />
+        <path
+          d="M20.3 22.2c-1.3.7-3 2.1-2.4 5 .1 1.6-1.4 2.4-1.4 2.4 5.1 1.7 7.7-2.3 8-3.6.3-1.2-.3-2.2-.7-2.9l-3.5-.9Z"
+          data-name="Vector 7"
+          style={{
+            fillRule: "evenodd",
+            fill: "url(#ArtworkSectionLogo9)",
+            strokeWidth: 0,
+          }}
+        />
+      </g>
+    </g>
   </svg>
 );
 export default ArtworkSectionLogo;

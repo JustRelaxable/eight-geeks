@@ -3,60 +3,71 @@ import { SVGProps } from "react";
 const GameSectionLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2.25em"
-    height="2.25em"
-    fill="none"
+    data-name="Layer 1"
+    viewBox="0 0 35.35 22.63"
+    width="2rem"
     {...props}
   >
-    <path
-      fill="url(#gameLogoGradient1)"
-      d="M7.752 28.2a4.53 4.53 0 0 1-2.103-.497c-1.568-.808-2.5-2.501-2.625-4.764-.2-3.642.833-7.2 3.16-10.873C7.976 9.234 10.03 8.45 13.28 9.361c1.522.428 3.146.84 4.702.79 1.393-.025 2.9-.276 4.737-.79 3.25-.912 5.305-.125 7.096 2.706 2.328 3.674 3.36 7.23 3.16 10.873-.124 2.264-1.057 3.955-2.624 4.764-1.628.841-3.686.608-5.795-.66-1.563-.936-3.043-1.922-4.287-2.765-1.334-.903-3.201-.903-4.537 0-1.243.843-2.725 1.83-4.287 2.766-1.279.766-2.537 1.154-3.693 1.154Z"
-    />
-    <path
-      fill="url(#gameLogoGradient2)"
-      fillRule="evenodd"
-      d="M9.96 20.384c0 .78.645 1.412 1.44 1.412.794 0 1.44-.632 1.44-1.412v-.707h.72c.795 0 1.44-.633 1.44-1.413s-.645-1.413-1.44-1.413h-.72v-.707c0-.78-.646-1.412-1.44-1.412-.795 0-1.44.632-1.44 1.412v.707h-.72c-.795 0-1.44.633-1.44 1.413s.644 1.413 1.44 1.413h.72v.707Z"
-      clipRule="evenodd"
-    />
-    <path
-      fill="url(#gameLogoGradient3)"
-      d="M25.2 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-    />
     <defs>
       <linearGradient
-        id="gameLogoGradient1"
-        x1={18}
-        x2={18}
-        y1={9}
-        y2={28.201}
+        id="GameSectionLogo1"
+        x1={17.68}
+        x2={17.68}
+        y1={23.43}
+        y2={0.8}
+        gradientTransform="matrix(1 0 0 -1 0 23.43)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#ED7DFF" />
-        <stop offset={1} stopColor="#9D00FD" />
+        <stop offset={0} stopColor="#ed7dff" />
+        <stop offset={1} stopColor="#9d00fd" />
       </linearGradient>
       <linearGradient
-        id="gameLogoGradient2"
-        x1={11.4}
-        x2={11.4}
-        y1={14.732}
-        y2={21.796}
+        id="GameSectionLogo2"
+        x1={9.9}
+        x2={9.9}
+        y1={16.67}
+        y2={8.35}
+        gradientTransform="matrix(1 0 0 -1 0 23.43)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#fff" />
-        <stop offset={1} stopColor="#D3D0F1" />
+        <stop offset={0} stopColor="#fff" />
+        <stop offset={1} stopColor="#d3d0f1" />
       </linearGradient>
       <linearGradient
-        id="gameLogoGradient3"
-        x1={25.2}
-        x2={25.2}
-        y1={15}
-        y2={21}
+        id="GameSectionLogo3"
+        x1={26.16}
+        x2={26.16}
+        y1={16.36}
+        y2={9.28}
+        gradientTransform="matrix(1 0 0 -1 0 23.43)"
         gradientUnits="userSpaceOnUse"
       >
-        <stop stopColor="#fff" />
-        <stop offset={1} stopColor="#D3D0F1" />
+        <stop offset={0} stopColor="#fff" />
+        <stop offset={1} stopColor="#d3d0f1" />
       </linearGradient>
     </defs>
+    <path
+      d="M5.6 22.63c-.89 0-1.72-.19-2.48-.58-1.85-.96-2.94-2.96-3.09-5.62-.24-4.3.98-8.49 3.72-12.82C5.86.28 8.28-.65 12.11.43c1.79.5 3.71.99 5.54.93 1.64-.03 3.42-.32 5.58-.93 3.83-1.08 6.25-.15 8.36 3.19 2.74 4.33 3.96 8.52 3.72 12.81-.15 2.67-1.25 4.66-3.09 5.61-1.92.99-4.34.72-6.83-.78-1.84-1.1-3.59-2.27-5.05-3.26-1.57-1.06-3.77-1.06-5.35 0-1.46.99-3.21 2.16-5.05 3.26-1.51.9-2.99 1.36-4.35 1.36Z"
+      style={{
+        strokeWidth: 0,
+        fill: "url(#GameSectionLogo1)",
+      }}
+    />
+    <path
+      d="M8.2 13.41c0 .92.76 1.67 1.7 1.67s1.7-.75 1.7-1.67v-.83h.85c.94 0 1.7-.75 1.7-1.67s-.76-1.66-1.7-1.66h-.85v-.83c0-.92-.76-1.66-1.7-1.66s-1.7.75-1.7 1.66v.83h-.85c-.94 0-1.7.75-1.7 1.66s.76 1.67 1.7 1.67h.85v.83Z"
+      style={{
+        fill: "url(#GameSectionLogo2)",
+        fillRule: "evenodd",
+        strokeWidth: 0,
+      }}
+    />
+    <path
+      d="M26.16 14.14a3.54 3.54 0 1 0 0-7.08 3.54 3.54 0 0 0 0 7.08Z"
+      style={{
+        fill: "url(#GameSectionLogo3)",
+        strokeWidth: 0,
+      }}
+    />
   </svg>
 );
 export default GameSectionLogo;

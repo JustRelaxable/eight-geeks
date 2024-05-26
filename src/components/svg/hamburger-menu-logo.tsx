@@ -3,16 +3,23 @@ import { SVGProps } from "react";
 const HamburgerMenuLogo = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="2.375em"
-    height="2.375em"
-    fill="none"
+    id="Layer_1"
+    data-name="Layer 1"
+    viewBox="0 0 28.3 22"
+    width="2rem"
+    height="2rem"
     {...props}
   >
+    <defs>
+      <style>
+        {
+          ".HamburgerMenuLogo1{fill:none;stroke:#eff0f7;stroke-linecap:round;stroke-width:3px}"
+        }
+      </style>
+    </defs>
     <path
-      stroke="#EFF0F7"
-      strokeLinecap="round"
-      strokeWidth={3}
-      d="M6.333 28.5h25.334M6.333 19h25.334M6.333 9.5h25.334"
+      d="M1.5 20.5h25.3M1.5 11h25.3M1.5 1.5h25.3"
+      className="HamburgerMenuLogo1"
     />
   </svg>
 );
