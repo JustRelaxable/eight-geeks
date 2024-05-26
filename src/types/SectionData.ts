@@ -3,6 +3,6 @@ import { ItemData } from "./ItemData";
 
 export type SectionData = {
   sectionName: string;
-  sectionLogo: React.FC;
+  SectionLogo: React.FC;
   items: ItemData[];
 };

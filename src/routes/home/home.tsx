@@ -17,7 +17,7 @@ export default function Home() {
         return (
           <HomeSection
             sectionName={section.sectionName}
-            SectionLogo={section.sectionLogo}
+            SectionLogo={section.SectionLogo}
             items={section.items}
             key={section.sectionName}
           />

@@ -1,5 +1,7 @@
+import { getSectionData } from "../../data/sections/sections";
 import BackLogo from "../svg/back-logo";
 import styles from "./categories-screen.module.css";
+import CategoriesScreenCategory from "./category/categories-screen-category";
 
 export default function CategoriesScreen({
   categoryScreenState,
@@ -7,6 +9,7 @@ export default function CategoriesScreen({
   categoryScreenState: [boolean, React.Dispatch<React.SetStateAction<boolean>>];
 }) {
   const [categoryScreenActive, setCategoryScreenActive] = categoryScreenState;
+  const sections = getSectionData();
   return (
     <div
       className={`${styles.container} ${
@@ -25,7 +28,11 @@ export default function CategoriesScreen({
           <p className={styles.headerText}>Categories</p>
         </div>
       </header>
-      <div className={styles.categoryContainer}></div>
+      <ul className={styles.categoryContainer}>
+        {sections.map((section) => (
+          <CategoriesScreenCategory sectionData={section} />
+        ))}
+      </ul>
     </div>
   );
 }

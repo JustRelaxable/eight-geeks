@@ -8,7 +8,7 @@ import MusicSectionLogo from "../../components/svg/music-section-logo";
 const sections: SectionData[] = [
   {
     sectionName: "games",
-    sectionLogo: GameSectionLogo,
+    SectionLogo: GameSectionLogo,
     items: [
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
@@ -24,7 +24,7 @@ const sections: SectionData[] = [
   },
   {
     sectionName: "videos",
-    sectionLogo: VideoSectionLogo,
+    SectionLogo: VideoSectionLogo,
     items: [
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
@@ -40,7 +40,7 @@ const sections: SectionData[] = [
   },
   {
     sectionName: "artworks",
-    sectionLogo: ArtworkSectionLogo,
+    SectionLogo: ArtworkSectionLogo,
     items: [
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
@@ -56,7 +56,7 @@ const sections: SectionData[] = [
   },
   {
     sectionName: "musics",
-    sectionLogo: MusicSectionLogo,
+    SectionLogo: MusicSectionLogo,
     items: [
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },

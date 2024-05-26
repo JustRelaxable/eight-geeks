@@ -1,0 +1,11 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.headerText {
+  font-size: var(--header-2-font-size);
+  font-weight: 400;
+}
