@@ -11,6 +11,7 @@
   --disabled-text-color: #aaadbe;
 
   --header-font-size: 1.5rem;
+  --header-2-font-size: 1.25rem;
   --sub-font-size: 0.75rem;
 }
 
@@ -35,6 +36,7 @@ body {
   color: var(--primary-text-color);
   font-family: "Itim", cursive;
   background-color: var(--primary-bg-color);
+  letter-spacing: 96%;
 }
 
 html,
