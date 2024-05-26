@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import styles from "./home-section-item.module.css";
+import styles from "./home-section-music-item.module.css";
 
-export default function HomeSectionItem({
+export default function HomeSectionMusicItem({
   thumbnailSource,
   itemName,
   itemAuthor,
@@ -16,8 +16,10 @@ export default function HomeSectionItem({
     <Link to={`/${sectionName}/${itemName.toLowerCase().replace(" ", "-")}`}>
       <article className={styles.container}>
         <img src={thumbnailSource} className={styles.thumbnail} />
-        <p>{itemName}</p>
-        <p className={styles.authorText}>{itemAuthor}</p>
+        <div className={styles.textContainer}>
+          <p>{itemName}</p>
+          <p className={styles.authorText}>{itemAuthor}</p>
+        </div>
       </article>
     </Link>
   );
