@@ -10,7 +10,17 @@ const sections: SectionData[] = [
     sectionName: "games",
     SectionLogo: GameSectionLogo,
     items: [
-      { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
+      {
+        thumbnailSource: aquaCop,
+        itemName: "Aqua Cop",
+        itemAuthor: "Crazy8",
+        itemInfo: [
+          ["Developer", "HikBoo Studios"],
+          ["Released", "May 2024"],
+          ["Last Updated", "May 2024"],
+          ["Technology", "HTML5"],
+        ],
+      },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
       { thumbnailSource: aquaCop, itemName: "Aqua Cop", itemAuthor: "Crazy8" },
