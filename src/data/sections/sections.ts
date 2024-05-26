@@ -75,3 +75,11 @@ const sections: SectionData[] = [
 export function getSectionData() {
   return sections;
 }
+
+export function getGameData(gameIdentifier: string) {
+  return sections
+    .find((section) => section.sectionName === "games")
+    ?.items.find((item) => {
+      return item.itemName.toLowerCase().replace(" ", "-") === gameIdentifier;
+    });
+}
