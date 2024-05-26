@@ -3,7 +3,7 @@ import styles from "./root.module.css";
 import { Outlet } from "react-router-dom";
 export default function Root() {
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container}`}>
       <NavigationBar />
       <Outlet />
     </div>

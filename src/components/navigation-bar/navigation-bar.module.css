@@ -11,6 +11,11 @@
   background-color: var(--tertiary-bg-color);
 }
 
+button {
+  background-color: transparent;
+  border: 0;
+}
+
 .logoContainer {
   display: flex;
   flex-direction: row;

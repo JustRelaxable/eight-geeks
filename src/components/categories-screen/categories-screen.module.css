@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-bg-color);
+}
+
+.categoryScreenActive {
+  left: 0%;
+}
+
+.headerContainer {
+  margin: 1rem;
+}
+
+.headerLogoTextContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: flex-end;
+}
+
+.headerText {
+  font-size: var(--header-font-size);
+}
+
+.categoryContainer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondary-bg-color);
+}
