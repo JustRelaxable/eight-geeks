@@ -1,6 +1,7 @@
 .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   position: fixed;
   padding: 0.5rem 1.125rem;
@@ -12,8 +13,11 @@
 }
 
 button {
+  display: flex;
+  justify-content: center;
   background-color: transparent;
-  border: 0;
+  border: none;
+  outline: none;
 }
 
 .logoContainer {

@@ -1,0 +1,11 @@
+.container {
+  border-radius: 10px;
+  background-color: var(--tertiary-bg-color);
+  padding: 0.5rem 1rem;
+}
+
+.itemHeaderText {
+  font-weight: 400;
+  font-size: var(--header-font-size);
+  margin-bottom: 0.75rem;
+}

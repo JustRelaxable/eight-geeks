@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   margin: 0 0.5rem;
 }
 
@@ -12,8 +12,8 @@
 .viewAllContainer {
   display: flex;
   flex-direction: row;
-  align-items: end;
-  gap: 1px;
+  align-items: center;
+  gap: 4px;
 }
 
 .sectionNameLogoContainer {

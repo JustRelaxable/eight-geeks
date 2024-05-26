@@ -48,6 +48,10 @@ body,
   */
 }
 
+a, button /* &c... */ {
+  all: unset;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

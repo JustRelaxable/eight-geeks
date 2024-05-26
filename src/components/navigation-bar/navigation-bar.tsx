@@ -4,6 +4,7 @@ import HamburgerMenuLogo from "../svg/hamburger-menu-logo";
 import SearchLogo from "../svg/search-logo";
 import styles from "./navigation-bar.module.css";
 import CategoriesScreen from "../categories-screen/categories-screen";
+import { Link } from "react-router-dom";
 
 export default function NavigationBar() {
   const [categoryScreenActive, setCategoryScreenActive] = useState(false);
@@ -16,12 +17,14 @@ export default function NavigationBar() {
     <>
       <nav className={styles.container}>
         <div className={styles.logoSearchContainer}>
-          <div className={styles.logoContainer}>
-            <EightGeeksLogo />
-            <p className={styles.logoText}>
-              Eight <br /> Geeks
-            </p>
-          </div>
+          <Link to={"/"}>
+            <div className={styles.logoContainer}>
+              <EightGeeksLogo />
+              <p className={styles.logoText}>
+                Eight <br /> Geeks
+              </p>
+            </div>
+          </Link>
           <SearchLogo />
         </div>
         <button
@@ -38,3 +41,14 @@ export default function NavigationBar() {
     </>
   );
 }
+
+/*
+
+        <button
+          onClick={() => {
+            setCategoryScreenActive(true);
+          }}
+        >
+          <HamburgerMenuLogo />
+        </button>
+*/
