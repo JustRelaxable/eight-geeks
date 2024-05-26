@@ -3,6 +3,7 @@ import { getGameData } from "../../../data/sections/sections";
 import { ItemData } from "../../../types/ItemData";
 import styles from "./game-details.module.css";
 import ItemDetails from "../../../components/item-details/item-details";
+import CommentSection from "../../../components/comment-section/comment-section";
 
 export function loader({ params }: { params: any }) {
   const gameData = getGameData(params.gameIdentifier);
@@ -16,6 +17,7 @@ export default function GameDetails() {
     <main className={styles.container}>
       <img src={gameData.thumbnailSource} />
       <ItemDetails itemData={gameData} />
+      <CommentSection />
     </main>
   );
 }
