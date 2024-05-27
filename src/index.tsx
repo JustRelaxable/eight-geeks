@@ -14,6 +14,8 @@ import VideoDetails, {
 } from "./routes/videos/video-details/video-details";
 import ArtworkDetails from "./routes/artworks/artwork-details/artwork-details";
 import { loader as artworkDetailsLoader } from "./routes/artworks/artwork-details/artwork-details";
+import MusicDetails from "./routes/musics/music-details/music-details";
+import { loader as musicDetailsLoader } from "./routes/musics/music-details/music-details";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -39,6 +41,11 @@ const router = createBrowserRouter([
         path: "artworks/:artworkIdentifier",
         element: <ArtworkDetails />,
         loader: artworkDetailsLoader,
+      },
+      {
+        path: "musics/:musicIdentifier",
+        element: <MusicDetails />,
+        loader: musicDetailsLoader,
       },
     ],
   },

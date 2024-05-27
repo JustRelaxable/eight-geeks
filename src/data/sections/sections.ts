@@ -484,3 +484,11 @@ export function getArtworkData(artworkIdentifier: string) {
       );
     });
 }
+
+export function getMusicData(musicIdentifier: string) {
+  return sections
+    .find((section) => section.sectionName === "musics")
+    ?.items.find((item) => {
+      return item.itemName.toLowerCase().replace(" ", "-") === musicIdentifier;
+    });
+}
