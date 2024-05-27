@@ -1,4 +1,4 @@
-import { createRef, useState } from "react";
+import { createRef, useContext, useState } from "react";
 import styles from "./music-player.module.css";
 import H5AudioPlayer from "react-h5-audio-player";
 import placeholderThumbnail from "../../data/sections/cover-thumbnails/devilsgun.avif";
@@ -6,9 +6,10 @@ import StopIcon from "../svg/stop-icon";
 import PauseIcon from "../svg/pause-icon";
 import PlayIcon from "../svg/play-icon";
 import AudioPlayer from "react-h5-audio-player";
+import MusicPlayerContext from "../../contexts/music-player-context";
 
 export default function MusicPlayer() {
-  const [playerVisible, setPlayerVisible] = useState(true);
+  const [playerVisible, setPlayerVisible] = useContext(MusicPlayerContext);
   const [playerPlaying, setPlayerPlaying] = useState(false);
   const [percentagePlayed, setPercentagePlayed] = useState(0);
   const player = createRef<H5AudioPlayer>();
