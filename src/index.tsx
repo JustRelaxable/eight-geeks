@@ -9,6 +9,9 @@ import Home from "./routes/home/home";
 import { loader as homeLoader } from "./routes/home/home";
 import GameDetails from "./routes/games/game-details/game-details";
 import { loader as gameDetailsLoader } from "./routes/games/game-details/game-details";
+import VideoDetails, {
+  loader as videoDetailsLoader,
+} from "./routes/videos/video-details/video-details";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -20,11 +23,15 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       { path: "/", element: <Home />, loader: homeLoader },
-      { path: "games/", element: <p>Hello from games page!</p> },
       {
         path: "games/:gameIdentifier",
         element: <GameDetails />,
         loader: gameDetailsLoader,
+      },
+      {
+        path: "videos/:videoIdentifier",
+        element: <VideoDetails />,
+        loader: videoDetailsLoader,
       },
     ],
   },

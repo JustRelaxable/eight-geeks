@@ -466,3 +466,11 @@ export function getGameData(gameIdentifier: string) {
       return item.itemName.toLowerCase().replace(" ", "-") === gameIdentifier;
     });
 }
+
+export function getVideoData(videoIdentifier: string) {
+  return sections
+    .find((section) => section.sectionName === "videos")
+    ?.items.find((item) => {
+      return item.itemName.toLowerCase().replace(" ", "-") === videoIdentifier;
+    });
+}
