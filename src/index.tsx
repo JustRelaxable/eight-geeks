@@ -12,6 +12,8 @@ import { loader as gameDetailsLoader } from "./routes/games/game-details/game-de
 import VideoDetails, {
   loader as videoDetailsLoader,
 } from "./routes/videos/video-details/video-details";
+import ArtworkDetails from "./routes/artworks/artwork-details/artwork-details";
+import { loader as artworkDetailsLoader } from "./routes/artworks/artwork-details/artwork-details";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
@@ -32,6 +34,11 @@ const router = createBrowserRouter([
         path: "videos/:videoIdentifier",
         element: <VideoDetails />,
         loader: videoDetailsLoader,
+      },
+      {
+        path: "artworks/:artworkIdentifier",
+        element: <ArtworkDetails />,
+        loader: artworkDetailsLoader,
       },
     ],
   },

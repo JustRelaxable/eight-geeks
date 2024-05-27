@@ -474,3 +474,13 @@ export function getVideoData(videoIdentifier: string) {
       return item.itemName.toLowerCase().replace(" ", "-") === videoIdentifier;
     });
 }
+
+export function getArtworkData(artworkIdentifier: string) {
+  return sections
+    .find((section) => section.sectionName === "artworks")
+    ?.items.find((item) => {
+      return (
+        item.itemName.toLowerCase().replace(" ", "-") === artworkIdentifier
+      );
+    });
+}
